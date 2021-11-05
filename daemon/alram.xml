@@ -1,0 +1,32 @@
+<service>
+	<id>alram.exe</id>
+	<name>Alram</name>
+	<description>this is 1 hour alram</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>--max_old_space_size=4096</argument>
+	<argument>E:\nodeprojects\alram\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>E:\nodeprojects\alram\index.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>Alram wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>LAPTOP-N8I94EUU</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>E:\nodeprojects\alram</workingdirectory>
+</service>
